@@ -1,0 +1,45 @@
+
+Necessário sistema para clientes abrirem conta de banco.
+Existe dois tipos de conta. Poupança e Corrente.
+Cliente 1 - C.Poupança = 300,00 (Depósito Inicial)
+Cliente 2 - C.Corrente = 400,00 (Depósito Inicial)
+Os clientes podem abrir, sacar, depositar e fechar a conta.
+O cliente precisa ter saldo para fazer saque.
+Todo mês os clientes pagara mensalidade. clientes conta corrente mensalidade de 
+12,00 e clientes poupança mensalidade de 20,00.
+Sempre que uma nova conta for criada sera com status fechada e saldo zero.
+Bonus quem abre conta corrente ganha 50,00 e quem abre conta poupança 
+ganha 150,00.
+
+abrir conta = saber o tipo de conta
+
+
+DIAGRAMA DE CLASSE
+---
+ContaBanco
+---
++ numConta
+# tipo
+- dono
+- saldo
+- status
+---
++ contaBanco() __construct
+
++ abrirConta()
++ fecharConta()
++ depositar()
++ sacar()
++ pagarMensal()
+
++ getNumConta()
++ setNumConta()
++ getTipo()
++ setTipo()
++ getDono()
++ setDono()
++ getSaldo()
++ setSaldo()
++ getStatus()
++ setStatus()
+---

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document JS</title>
+    <style>
+        body {
+            background-color: azure;
+            color: cadetblue;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>mod-b</h1>
+    <p>aula 06</p>
+    
+    <script>
+        /* 
+            Importante USAR TEMPLATE STRING COM `` + PlaceHolder ${}
+            Ex.: `Texto mais texto ${s}`
+        
+        */
+
+        //var n1 = Number.parseInt(window.prompt('digite um numero:'))
+        //var n2 = Number.parseInt(window.prompt('digite outro numero:'))
+        //var n1 = Number.parseFloat(window.prompt('digite um numero:'))
+        //var n2 = Number.parseFloat(window.prompt('digite outro numero:'))
+        var n1 = Number(window.prompt('digite um numero:'))
+        var n2 = Number(window.prompt('digite outro numero:'))
+
+        var s = n1 + n2
+
+        window.alert(`a soma é: ${s}`)
+
+        //window.alert('a soma é: ' + s.toString())
+        //window.alert('a soma é: ' + String(s)) // para converter em string 'String(n)'
+
+        //window.alert('a soma é: ' + s) //concatenação
+        // (nunber + nunber) para adição
+        // (string + string) para concatenação
+        // window.prompt retorna string
+    </script>
+</body>
+</html>

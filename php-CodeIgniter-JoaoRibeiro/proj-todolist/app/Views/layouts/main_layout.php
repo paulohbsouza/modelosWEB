@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <?= $this->renderSection('content') ?>
+    <?= $this->renderSection('conteuuudo') ?>
 
     <script src="<?= base_url('assets/jquery.slim.min.js') ?>"></script>
     <script src="<?= base_url('assets/popper.min.js') ?>"></script>

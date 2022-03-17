@@ -8,7 +8,8 @@ SELECT
     d.descricao AS 'situacao',
     e.DescricaoProSer AS 'produto',
     b.codigo AS 'projeto',
-    b.descricaoprojeto FROM gr_projetoatividades AS a
+    b.descricaoprojeto
+FROM gr_projetoatividades AS a
          INNER JOIN gr_projetos AS b
          INNER JOIN arqcf AS c
          INNER JOIN gr_situacoesprojeto AS d
@@ -21,6 +22,45 @@ SELECT
                         AND a.codsistema IN (40)
 
 ORDER BY d.descricao DESC ;
+
+/* ########################################
+Gerar relatorio GESTÃO PROJETO - Todos os sistemas ativos desses clientes...
+######################################## */
+SELECT 	CONCAT(a.CodCliFor, ' - ', a.NomeCliFor) AS 'Clente',
+        CONCAT(c.codigo, ' - ', c.descricao) AS 'Atividade',
+        CONCAT(e.codigo, ' - ', e.descricao) AS 'Situação'
+
+FROM arqcf a
+         INNER JOIN gr_projetos b
+         INNER JOIN gr_projetoatividades c
+         INNER JOIN arqps d
+         INNER JOIN gr_situacoesprojeto e
+                    ON b.codcliente = a.CodCliFor
+                        AND a.CodCliFor IN (2995, 135, 845, 1309, 3074, 5009, 5034, 3189, 5079)
+                        AND c.codprojeto = b.codigo
+                        AND d.CodProSer = c.codsistema
+                        AND e.codigo = b.codsituacao
+                        AND b.codsituacao = 10
+
+/* ########################################
+Gerar relatorio GESTÃO PROJETO - Um relatório de todos os clientes públicos que estão com
+   Vigência do contrato SIM e com as Datas desses contratos.
+######################################## */
+SELECT
+    a.inicio_vigencia,
+    a.fim_vigencia,
+    CONCAT(b.CodCliFor, ' - ', b.NomeCliFor) AS 'Nome',
+        a.numerocontrato AS 'Num Contrato',
+        a.contratovigente AS 'Vigencia'
+
+FROM gr_contratosprojeto AS a
+         INNER JOIN arqcf AS b
+                    ON a.idcliente = b.CodCliFor
+                        AND b.TipEmc = 2
+                        AND a.contratovigente = 'S'
+
+ORDER BY a.inicio_vigencia DESC ;
+
 
 /* ########################################
 LEFT JOIN + CONCAT
@@ -60,23 +100,4 @@ FROM arqret r
       AND m.CaracteristicaSituacao = 'P'
 ) v
 WHERE r.NumOcorrencia = v.NumOcorrencia
-
-/* ########################################
-Um relatório de todos os clientes públicos que estão com Vigência do contrato SIM e
-   com as Datas desses contratos.
-######################################## */
-SELECT
-    a.inicio_vigencia,
-    a.fim_vigencia,
-    CONCAT(b.CodCliFor, ' - ', b.NomeCliFor) AS 'Nome',
-        a.numerocontrato AS 'Num Contrato',
-        a.contratovigente AS 'Vigencia'
-
-FROM gr_contratosprojeto AS a
-         INNER JOIN arqcf AS b
-                    ON a.idcliente = b.CodCliFor
-                        AND b.TipEmc = 2
-                        AND a.contratovigente = 'S'
-
-ORDER BY a.inicio_vigencia DESC ;
 

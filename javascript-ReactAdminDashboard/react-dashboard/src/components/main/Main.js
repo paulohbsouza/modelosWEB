@@ -68,10 +68,10 @@ const Main = () => {
                                 <h1>Stats Reports</h1>
                                 <p>Cupertino, California, USA</p>
                             </div>
-                            <i className="fa fa-use"></i>
+                            <i className="fa fa-usd"></i>
                         </div>
 
-                        <div className="charts__right__carts">
+                        <div className="charts__right__cards">
                             <div className="card1">
                                 <h1>Income</h1>
                                 <p>$75,300</p>

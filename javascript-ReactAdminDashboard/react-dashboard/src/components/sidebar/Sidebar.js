@@ -64,7 +64,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <i className="fa fa-briefcase"></i>
                     <a href="#">Paygrade</a>
                 </div>
-                <div className="sidebar__link">
+                <div className="sidebar__logout">
                     <i className="fa fa-power-off"></i>
                     <a href="#">Log out</a>
                 </div>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/curso_upinside.iml" filepath="$PROJECT_DIR$/.idea/curso_upinside.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fsphp-fw.iml" filepath="$PROJECT_DIR$/.idea/fsphp-fw.iml" />
     </modules>
   </component>
 </project>

@@ -42,6 +42,7 @@ const NavLinks = (props) => {
                             ?
                             props.subMenu.map(row => {
                                 return (
+                                //key={props.id} testar dentro de LI caso der Warning no console
                                     <li><a href={row.subMenuLink}>{row.subMenuName}</a></li>// corrigir erro de key
                                 );
                             })

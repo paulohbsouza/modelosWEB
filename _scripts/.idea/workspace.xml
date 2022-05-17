@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f021a5-e4a1-4334-ae47-890b7e6d02f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modelosHTML.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_bkp.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_bkp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_empty.sql" beforeDir="false" afterPath="$PROJECT_DIR$/zz_empty.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javascript-ReactAdminDashboard/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javascript-ReactAdminDashboard/.idea/javascript-ReactAdminDashboard.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javascript-ReactAdminDashboard/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javascript-ReactAdminDashboard/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646265960.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646266303.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646266361.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646266782.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646266978.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php-CodeIgniter-JoaoRibeiro/proj-todolist/writable/debugbar/debugbar_1646267270.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650633703080</updated>
       <workItem from="1650633704216" duration="4334000" />
+      <workItem from="1652810022559" duration="112000" />
+      <workItem from="1652810173884" duration="51000" />
     </task>
     <servers />
   </component>

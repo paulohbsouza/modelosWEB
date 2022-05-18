@@ -7,7 +7,7 @@
             <h3 class="">TODO List!</h3>
         </div>
         <div class="col p-3 text-right">
-            <a href="<?= site_url('main/newJob') ?>" class="btn btn-primary">New</a>
+            <a href="<?= site_url('main/newJob') ?>" class="btn btn-primary">Nova tarefa</a>
         </div>
     </div>
 </header>
@@ -31,7 +31,25 @@
                 <td class="text-center"><?= $job->job ?></td>
                 <td class="text-center"><?= $job->datetime_created ?></td>
                 <td class="text-center"><?= $job->datetime_finished ?></td>
-                <td>[ações]</td>
+                <td class="text-center">
+
+                    <!-- tarefa realizada -->
+                    <?php if(empty($job->datetime_finished)): ?>
+                        <a href="<?= site_url('main/jobdone/'.$job->id_job) ?>" class="btn btn-success btn-sm mx-2"><i class="fa fa-check"></i></a>
+                    <?php else: ?>
+                        <button class="btn btn-danger btn-sm mx-2" disabled><i class="fa fa-times"></i></button>
+                    <?php endif; ?>
+
+                    <!-- editar tarefa -->
+                    <?php if(empty($job->datetime_finished)): ?>
+                        <a href="<?= site_url('main/editjob/'.$job->id_job) ?>" class="btn btn-primary btn-sm mx-2"><i class="fa fa-pencil"></i></a>
+                    <?php else: ?>
+                        <button class="btn btn-primary btn-sm mx-2" disabled><i class="fa fa-pencil"></i></button>
+                    <?php endif; ?>
+
+                    <!-- eliminar tarefa -->
+                    <a href="<?= site_url('main/deletejob/'.$job->id_job) ?>" class="btn btn-primary btn-sm mx-2"><i class="fa fa-trash"></i></a>
+                </td>
             </tr>
         <?php endforeach; ?>
         </tbody>

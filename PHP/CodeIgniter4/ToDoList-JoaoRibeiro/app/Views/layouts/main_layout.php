@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap.min.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/font-awesome-4.7.0/css/font-awesome.min.css') ?>">
-    <title>Todo List!</title>
+    <title>ToDo List!</title>
 </head>
 <body>
 
@@ -17,7 +17,7 @@
     <footer class="container">
         <div class="row">
             <div class="col text-center">
-                TODO List &copy; <?= date('Y') ?>
+                ToDo List &copy; <?= date('Y') ?>
             </div>
         </div>
     </footer>

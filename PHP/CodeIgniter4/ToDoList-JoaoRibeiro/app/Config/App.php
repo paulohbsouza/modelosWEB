@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/modelosWEB/php-CodeIgniter-JoaoRibeiro/proj-todolist/public/';
+    public $baseURL = 'http://localhost/modelosWEB/PHP/CodeIgniter4/ToDoList-JoaoRibeiro/public/';
 
     /**
      * --------------------------------------------------------------------------

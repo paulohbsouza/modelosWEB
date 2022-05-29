@@ -1,0 +1,6 @@
+<head>
+  <!--load all Font Awesome styles -->
+  <link href="./assets/fontawesome/css/all.min.css" rel="stylesheet">
+</head>
+
+Copy the /webfonts folder and the /css/all.css file into your project’s assets directory where other images and CSS are stored. You'll want to keep them in the same directory.

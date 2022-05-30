@@ -18,7 +18,7 @@ fullStackPHPClassSession("classe filha", __LINE__);
 
 
 /*
- * [ polimorfismo ] Uma classe filha que tem métodos iguais (mesmo nome e argumentos) a class
+ * [ polimorfismo ] Uma classe filha que tem métodos iguais (mesmo nome e argumentos) a classes
  * pai, mas altera o comportamento desses métodos para se especializar
  */
 fullStackPHPClassSession("polimorfismo", __LINE__);

@@ -1,7 +1,3 @@
-<?php
-    $_GET['btn'] = isset($_GET['btn']) ? $_GET['btn'] : '';
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -18,7 +14,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="row">
             <div class="col-md-12 my-3">
@@ -31,14 +26,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 offset-md-4 my-5">
-                <div class="shadow p-3 bg-ligth bg-gradient rounded">
-                    <h1 class="display-6 text-info">Escolhas as opções de acesso</h1>
-                </div>
+            <div class="col-md-6 offset-md-3 mt-5 text-center shadow p-5 bg-ligth bg-gradient rounded">
+                <h1 class="display-4 text-info">Hello World!</h1>
+                <h1 class="display-6 text-info">Escolha as opções de acesso.</h1>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

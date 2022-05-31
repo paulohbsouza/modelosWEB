@@ -10,7 +10,7 @@
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
 
-    <title>Main</title>
+    <title>Login Usuários</title>
 </head>
 
 <body>

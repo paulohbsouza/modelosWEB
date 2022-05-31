@@ -1,11 +1,8 @@
 body {
-    background-image: url('../img/wallpaper-blue.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #FFFFFF;
 }
 
 .navbar {
-    background-color: rgba(0 0 0 / 0.7);
     border-radius: 5px;
     padding: 1em;
 }

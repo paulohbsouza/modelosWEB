@@ -3,13 +3,17 @@ body {
 }
 
 .cardLogin {
-    background: #FFFFFF;
-    border-radius: 14px;
+    /*background: #212529;*/
+    background: linear-gradient(-90deg, #141E30, #243B55);
+    border-radius: 7px;
     width: 280px;
-    height: 360px;
-    padding: 14px;
-    box-shadow: 5px 5px 5px #000000;
+    padding: 18px;
+    box-shadow: 2px 4px 6px rgba(0 0 0 / 0.3);
+    color:#FFFFFF;
+    margin: 100px auto;
 
-    /*border: 1px solid red;*/
 }
 
+.cardLogin i {
+    font-size: 12px;
+}

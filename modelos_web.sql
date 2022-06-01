@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Servidor:                     127.0.0.1
--- Versão do servidor:           10.4.22-MariaDB - mariadb.org binary distribution
+-- Versão do servidor:           10.4.21-MariaDB - mariadb.org binary distribution
 -- OS do Servidor:               Win64
 -- HeidiSQL Versão:              12.0.0.6468
 -- --------------------------------------------------------
@@ -28,11 +28,13 @@ CREATE TABLE IF NOT EXISTS `main_login_usuarios` (
   `pass` varchar(50) DEFAULT NULL,
   `createdAt` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 
--- Copiando dados para a tabela modelos_web.main_login_usuarios: ~1 rows (aproximadamente)
+-- Copiando dados para a tabela modelos_web.main_login_usuarios: ~3 rows (aproximadamente)
 INSERT INTO `main_login_usuarios` (`id`, `firstName`, `lastName`, `email`, `pass`, `createdAt`) VALUES
-	(1, 'Paulo H', 'B Souza', 'paulohbsouza@hotmail.com', '202cb962ac59075b964b07152d234b70', '2022-06-01 02:23:04');
+	(1, 'Paulo H', 'B Souza', 'paulohbsouza@hotmail.com', '202cb962ac59075b964b07152d234b70', '2022-06-01 02:23:04'),
+	(2, 'Poliana F', 'F Souza', 'poliana_frogeri@hotmail.com', '202cb962ac59075b964b07152d234b70', '2022-06-01 13:03:26'),
+	(3, 'Luiza F', 'B Souza', 'luizafbsouza@test.com', '202cb962ac59075b964b07152d234b70', '2022-06-01 13:39:19');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

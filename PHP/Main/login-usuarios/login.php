@@ -1,18 +1,14 @@
 <?php
+    $email = $_POST['email'];
+    echo $email;
+
     require_once './connect.php';
 
-    $test = $connect->query(" SELECT * FROM main_login_usuarios ")->fetchAll(PDO::FETCH_ASSOC);
+    $users = $connect->query(" SELECT * FROM main_login_usuarios ")->fetchAll(PDO::FETCH_ASSOC);
 
-    echo "<pre>";
-    var_dump($test);
-    echo "</pre>";
-
-    foreach($test as $t)
+    foreach($users as $user)
     {
-        echo "<pre>";
-        var_dump($t['firstName']);
-        echo "</pre>";
-        echo "E-mail do ususário: " . $t['email'];
+        
     }
 ?>
 

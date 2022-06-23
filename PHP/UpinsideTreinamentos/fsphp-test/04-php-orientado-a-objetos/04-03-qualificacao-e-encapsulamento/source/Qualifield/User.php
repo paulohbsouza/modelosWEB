@@ -1,10 +1,41 @@
 <?php
 
+namespace Source\Qualifield;
+
 class User
 {
-    public $firstName;
-    public $lastName;
-    public $email;
+    private $firstName;
+    private $lastName;
+    private $email;
+
+    private $error;
+
+    /**
+     * @param $firstName
+     * @param $lastName
+     * @param $email
+     * @return bool
+     */
+    public function setUser($firstName, $lastName, $email)
+    {
+        $this->setFirstName($firstName);
+        $this->setLastName($lastName);
+
+        if(!$this->setEmail($email))
+        {
+            $this->error = "O e-mail {$this->getEmail()} não é válido!";
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * @return mixed
+     */
+     public function getErro()
+    {
+        return $this->error;
+    }
 
     /**
      * @return mixed
@@ -18,7 +49,7 @@ class User
      * @param $firstName
      * @return void
      */
-    public function setFirstName($firstName)
+    private function setFirstName($firstName)
     {
         $this->firstName = filter_var($firstName, FILTER_SANITIZE_STRIPPED);
     }
@@ -35,7 +66,7 @@ class User
      * @param $lastName
      * @return void
      */
-    public function setLastName($lastName)
+    private function setLastName($lastName)
     {
         $this->lastName = filter_var($lastName, FILTER_SANITIZE_STRIPPED);
     }
@@ -53,7 +84,7 @@ class User
      * @param mixed $email
      * @return bool
      */
-    public function setEmail($email)
+    private function setEmail($email)
     {
         $this->email = $email;
         if(filter_var($email, FILTER_VALIDATE_EMAIL))

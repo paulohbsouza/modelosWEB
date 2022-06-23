@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68efe379-ff55-4723-b6df-9ed7ca6732be" name="Changes" comment="" />
+    <list default="true" id="68efe379-ff55-4723-b6df-9ed7ca6732be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/classes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +17,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29tLaezBl360UMQCJ4jTkkYfSIB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/var/www/html/modelosWEB/PHP/UpinsideTreinamentos/fsphp-wf",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/source" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +52,7 @@
       <updated>1653927503041</updated>
       <workItem from="1653927504187" duration="129000" />
       <workItem from="1654022730727" duration="29000" />
+      <workItem from="1655935772793" duration="7490000" />
     </task>
     <servers />
   </component>

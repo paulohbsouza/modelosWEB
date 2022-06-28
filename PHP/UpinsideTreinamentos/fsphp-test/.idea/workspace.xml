@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68efe379-ff55-4723-b6df-9ed7ca6732be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/classes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-02-classes-propriedades-e-objetos/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-05-interpretacao-e-operacoes-pt1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-05-interpretacao-e-operacoes-pt1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fsphp-wf/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../fsphp-wf/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/composer.phar" interpreterId="05bfe677-ebb8-497b-bf4b-20245e055c9e" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -34,11 +38,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/var/www/html/modelosWEB/PHP/UpinsideTreinamentos/fsphp-wf",
+    "php.override.implement.member.chooser.php.doc": "NONE",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico" />
       <recent name="$PROJECT_DIR$/04-php-orientado-a-objetos/04-03-qualificacao-e-encapsulamento/source" />
     </key>
   </component>
@@ -53,6 +59,8 @@
       <workItem from="1653927504187" duration="129000" />
       <workItem from="1654022730727" duration="29000" />
       <workItem from="1655935772793" duration="7490000" />
+      <workItem from="1656278929704" duration="620000" />
+      <workItem from="1656367440580" duration="10393000" />
     </task>
     <servers />
   </component>

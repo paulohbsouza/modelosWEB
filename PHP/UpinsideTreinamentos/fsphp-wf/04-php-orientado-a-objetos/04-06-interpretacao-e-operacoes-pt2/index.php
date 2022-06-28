@@ -23,8 +23,7 @@ $fsphp->value = 1997;
 
 var_dump($fsphp);
 
-$fsphp->title = "Full Stack PHP Developer";
-$fsphp->company = "UpInside";
+
 
 
 /*

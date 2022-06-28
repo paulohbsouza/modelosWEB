@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="68efe379-ff55-4723-b6df-9ed7ca6732be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico/index.php" afterDir="false" />
@@ -8,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fsphp-wf/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../fsphp-wf/04-php-orientado-a-objetos/04-06-interpretacao-e-operacoes-pt2/index.php" afterDir="false" />
     </list>
+=======
+    <list default="true" id="68efe379-ff55-4723-b6df-9ed7ca6732be" name="Changes" comment="" />
+>>>>>>> a259f4cf139d7284f442e9dee5d55e4e795d3e04
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -42,6 +47,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+>>>>>>> a259f4cf139d7284f442e9dee5d55e4e795d3e04
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04-php-orientado-a-objetos/04-04-carregamento-automatico" />
@@ -59,8 +73,12 @@
       <workItem from="1653927504187" duration="129000" />
       <workItem from="1654022730727" duration="29000" />
       <workItem from="1655935772793" duration="7490000" />
+<<<<<<< HEAD
       <workItem from="1656278929704" duration="620000" />
       <workItem from="1656367440580" duration="10393000" />
+=======
+      <workItem from="1655984696576" duration="212000" />
+>>>>>>> a259f4cf139d7284f442e9dee5d55e4e795d3e04
     </task>
     <servers />
   </component>

@@ -10,11 +10,35 @@ require __DIR__ . "/source/autoload.php";
  */
 fullStackPHPClassSession("implementacão", __LINE__);
 
+$user = new \Source\Contracts\User(
+    "Poliana",
+    "Frogeri",
+    "email@email.com"
+);
+
+$admin = new \Source\Contracts\UserAdmin(
+    "Paulo",
+    "Souza",
+    "email@email.net"
+);
+
+var_dump($user, $admin);
+
 
 /*
  * [ associação ] Um exemplo associando ao login
  */
 fullStackPHPClassSession("associação", __LINE__);
+
+$login = new \Source\Contracts\Login();
+
+$loginUser = $login->loginUser($user);
+$loginAdmin = $login->loginUserAdmin($admin);
+
+var_dump(
+    $loginUser,
+    $loginAdmin
+);
 
 
 /*
@@ -23,6 +47,12 @@ fullStackPHPClassSession("associação", __LINE__);
  */
 fullStackPHPClassSession("dependência", __LINE__);
 
-
+// para garantir a comunicação entre objetos atravez de contratos
+var_dump(
+    $login->login($user),
+    $login->login($user)->getLastName(),
+    $login->login($admin),
+    $login->login($admin)->getLastName()
+);
 
 
